@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(134deg, #A16AE8 0%, #B4FEE7 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.container h1 {
+    font-family: Helvetica;
+    padding-top: 5rem;
+    font-size: 60px;
+    color: #3F2F4E;
+}
+
+.imagem {
+    width: 450px;
+}
+
+.container-jogador {
+    flex-direction: column;
+}
+
+.container-jogador label {
+    font-size: 20px;
+    align-items: center;
+}
+
+.container-jogador input {
+    padding: 0.5rem 3rem;
+}
+
+.botao {
+    padding: 1rem 4rem;
+    background: #FFE086;
+    text-decoration: none;
+    
+}
