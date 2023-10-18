@@ -1,62 +1,35 @@
 <!DOCTYPE html>
-<html lang ="pt-br">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivia</title>
+    <title>Perguntas</title>
+    <link href="/css/quiz2.css" rel="stylesheet">
 </head>
+
 <body>
-    
-    <div><h1>Filme</h1></div>
-           
-        <p>Questão 1 - Qual o filme que o navio afunda? </p>
-         <!-- Resposta certa B -->
+    <main>
+        <div class="container">
+            <h2>Quiz 2 - Qual a cor da camisa do Cebolinha ?</h2>
+            <div class="respostas">
+                <input type="radio" name="iVerde" id="iVerde">
+                <label for="iabacaxi">Verde</label>
+            </div>
 
-        <input type="radio" name="question1" id="iinimigo"> 
-        <label for="iinimigo">Greyhound - Na Mira do Inimigo</label>
+            <div class="respostas">
+                <input type="radio" name="iBranco" id="iBranco">
+                <label for="iuva">Branco</label>
+            </div>
 
-        <input type="radio" name="question1" id="ititanic">
-        <label for="ititanic">Titanic</label>
-        
-        <input type="radio" name="question1" id="ihoras">
-        <label for="ihoras">Horas Decisivas</label><br>
-
-        <input type="button" onclick="funcao1()" value="Responder e ver resultado"><br>
-  
-        <p>Questão 2 - Qual filme se passa durante a Primeira Guerra Mundial?</p>
-         <!-- Resposta certa A -->
-
-        <input type="radio" name="question2" id="isangue"> 
-        <label for="isangue">Glória Feita de Sangue</label>
-        
-
-        <input type="radio" name="question2" id="ioito"> 
-        <label for="ioito">Os Vinte e Oito Heróis</label>
-
-        <input type="radio" name="question2" id="ilimite">
-        <label for="ilimite">No Limite do Amanhã</label><br>
-
-        <input type="button" onclick="funcao1()"  value="Responder e ver resultado"><br>
-    
-        <p>Questão 3 - Em qual fime a princesa come a maçã?</p>
-        <!-- Resposta certa Branca de Neve -->
-
-        <input type="radio" name="question3" id="ineve">
-        <label for="ineve">Branca de Neve</label>
-
-        <input type="radio" name="question3" id="icinderela"> 
-        <label for="icinderela">Cinderela</label>
-
-        <input type="radio" name="question3" id="isete">
-        <label for="isete">Os sete anoes</label><br>
-
-        <input type="button" onclick="funcao1()" value="Responder e ver resultado"><br><br>
-    
-        <p><a href="./quiz.html">
-            <button>Veja sua pontuação</button>
-        </a>
-
-    </div>
-
-    <script src="./script.js"></script>
+            <div class="respostas">
+                <input type="radio" name="iPreto" id="iPreto">
+                <label for="imelancia">Preto</label>
+            </div>
+            <a href="/html/placar.html">
+                <button class="botao">Proxima</button>
+            </a>
+        </div>
+    </main>
+</body>
 </body>
