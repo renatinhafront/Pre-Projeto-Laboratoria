@@ -1,46 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Poppins:wght@300;400;500;600&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    height: 100vh;
-    background: linear-gradient(134deg, #A16AE8 0%, #B4FEE7 100%);
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(134deg, #a16ae8 0%, #b4fee7 100%);
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    
+  display: flex;
+  align-items: center;
+  padding-top: 8rem;
 }
 
-.container h1 {
-    font-family: Helvetica;
-    padding-top: 5rem;
-    font-size: 60px;
-    color: #3F2F4E;
+.container-imagem {
+  width: 450px;
+  padding-left: 20rem;
 }
 
-.imagem {
-    width: 450px;
+.container-nome-jogador {
+  padding: 0 10rem 0 3rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.container-jogador {
-    flex-direction: column;
+.container-nome-jogador-titulo {
+  color: #3f2f4e;
+  font-size: 70px;
+  padding-bottom: 1rem;
 }
 
-.container-jogador label {
-    font-size: 20px;
-    align-items: center;
+.container-nome-jogador label {
+  margin-left: 10rem;
+  color: #352f2c;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
 }
 
-.container-jogador input {
-    padding: 0.5rem 3rem;
+.container-nome-jogador input {
+  margin-left: 10rem;
+  width: 400px;
+  height: 40px;
+  background: #fefefe;
+  border: none;
+  filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.2));
 }
 
 .botao {
-    padding: 1rem 4rem;
-    background: #FFE086;
-    text-decoration: none;
-    
+  width: 30%;
+  margin-left: 15rem;
+  padding: 1rem;
+  background: #ffe086;
+  margin-top: 2rem;
+  font-size: 16px;
+  border-style: none;
+  font-weight: bold;
+  filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.1));
 }

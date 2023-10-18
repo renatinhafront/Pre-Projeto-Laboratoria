@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem Vindo</title>
     <link href="style.css" rel="stylesheet">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
+
 <body>
     <div class="container">
-        <img src="./assets/Saly-22.png" alt="Ilustração mulher" class="imagem">
-        <h1>Bem vindo ao Trivia</h1>
+        <img src="./assets/Saly-22.png" alt="Ilustração mulher" class="container-imagem">   
+        <div class="container-nome-jogador">
+            <h1 class="container-nome-jogador-titulo">Bem vindo ao JOGO</h1>
+                <label for="tjogador">Qual seu nome jogador?</label>
+                <input type="text" id="tjogador" name="tjogador">
+                <button class="botao">Começar a jogar</button>
+        </div>
     </div>
-    <div class="container-jogador">
-       
-        <label for="tjogador">Qual seu nome jogador?</label>
-        <input type="text" id="tjogador" name="tjogador">
+    <!--  
+    <p>Qual tema?</p>
+    <input type="radio" id="rdesenho" name="rdesenho">
+    <label for="rdesenho">Desenho</label>
 
-        <p>Qual tema?</p>
-<!--
-    
--->
-        <input type="radio" id="rdesenho" name="rdesenho">
-        <label for="rdesenho">Desenho</label>
+    <input type="radio" id="rfilme" name="rfilme">
+    <label for="rfilme">Filme</label>
 
-        <input type="radio" id="rfilme" name="rfilme">
-        <label for="rfilme">Filme</label>
-
-        <a href="./quiz.html">
-            <button class="botao">Jogar</button>
-        </a>
-
-    </div>
-     
-    
+    <a href="./quiz.html">
+        <button class="botao">Jogar</button>
+    </a>
+    -->
 </body>
 </html>
