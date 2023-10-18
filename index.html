@@ -4,28 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem Vindo</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
-    <div><h1>Bem Vindo</h1></div><br>
-
-    <div>
+    <div class="container">
+        <img src="./assets/Saly-22.png" alt="Ilustração mulher" class="imagem">
+        <h1>Bem vindo ao Trivia</h1>
+    </div>
+    <div class="container-jogador">
        
-        <p><label for="tjogador">Qual seu nome jogador?</label></p>
-        <p><input type="text" id="tjogador" name="tjogador"><br><br></p>
+        <label for="tjogador">Qual seu nome jogador?</label>
+        <input type="text" id="tjogador" name="tjogador">
 
         <p>Qual tema?</p>
-
-        <input type="radio" id="rdesenho" name="tema">
+<!--
+    
+-->
+        <input type="radio" id="rdesenho" name="rdesenho">
         <label for="rdesenho">Desenho</label>
 
-        <input type="radio" id="rfilme" name="tema">
+        <input type="radio" id="rfilme" name="rfilme">
         <label for="rfilme">Filme</label>
 
-        <p><a href="./quiz2.html">
-            <button>Jogar</button>
+        <a href="./quiz.html">
+            <button class="botao">Jogar</button>
         </a>
 
     </div>
-      
+     
+    
 </body>
 </html>
