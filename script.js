@@ -1,5 +1,7 @@
-function funcao1()
-{
-    var seg = document.querySelector('input[name=question1]:checked').value; 
-    alert(seg);
-}
+const botao = document.querySelector('.botao')
+
+botao.addEventListener('click', (item) => {
+  console.log('clicou')
+})
+
+botaoClick()
