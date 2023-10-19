@@ -34,7 +34,6 @@ main {
 }
 
 .respostas  {
-  display: flex;
   justify-content: left;
   padding: 0.8rem  4.5rem;
   font-weight: 400;
@@ -58,21 +57,9 @@ main {
   border-style: none;
   font-weight: bold;
   filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.1));
+  border-radius: 5px;
 }
 
 a {
   text-decoration: none;
-}
-
-.botao {
-  width: 30%;
-  margin-left: 15rem;
-  padding: 1rem;
-  background: #ffe086;
-  margin-top: 2rem;
-  font-size: 16px;
-  border-style: none;
-  font-weight: bold;
-  filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.1));
-  border-radius: 5px;
 }
