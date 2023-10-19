@@ -75,4 +75,5 @@ a {
   font-weight: bold;
   filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.1));
   border-radius: 5px;
+  cursor: pointer;
 }
