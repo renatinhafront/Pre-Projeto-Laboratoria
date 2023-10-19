@@ -1,5 +1,5 @@
-var botao = document.querySelector('.botao')
-var respostas = document.querySelector('.respostas')
+const botao = document.querySelector('.botao')
+const respostas = document.querySelector('.respostas')
 
 botao.addEventListener('click', (item) => {
   const checked = respostas.querySelector("input[name=fruta]:checked"); 
